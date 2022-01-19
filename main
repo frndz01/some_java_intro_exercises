@@ -1,0 +1,60 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Exercise 1");
+		System.out.println("Hello World");
+		char ej1Array[]={'H','e','l','l','o',' ','W','o','r','l','d'};
+		for (char letras : ej1Array){
+		    System.out.println(letras);
+		}
+		for (char vocales : ej1Array){
+		    if (vocales =='a' || vocales =='e' || vocales =='i' || vocales =='o' || vocales =='u' || vocales =='A' || vocales =='E' || vocales =='I' || vocales =='O' || vocales =='U' ){
+    		    System.out.println(vocales);
+		        
+		    }
+		}
+		System.out.println();
+		System.out.println("Exercise 2");
+		int ej2Array[]={2,3,4,5,6,7,8,9};
+		for (int i=0; i<ej2Array.length; i++) {
+	        //System.out.println(ej2Array[i]);
+		    if (ej2Array[i] % 2 == 0) {
+		        System.out.println(ej2Array[i] + " is even");
+		    }
+		    if (ej2Array[i] % 2 == 1) {
+		        System.out.println(ej2Array[i] + " is odd");
+		    }
+		    if (ej2Array[i] % 3 == 0) {
+		        System.out.println(ej2Array[i] + " is multiple of 3");
+		    }
+		}
+		System.out.println();
+		System.out.println("Exercise 3");
+		for (int j = ej2Array.length-1; j >= 0; j--) {
+		    System.out.println(ej2Array[j]);
+		}
+		System.out.println();
+		System.out.println("Exercise 4");
+		int[] array1 = new int[]{1,2,3,4,5};
+		System.out.println(array1);
+		int[] array2 = new int[]{334,23,4};
+		System.out.println(array2);
+		int[] array3 = new int[array1.length + array2.length];
+		System.out.println(array3);
+	//	array3 = System.arraycopy(array1[],array3[]);
+	//	array3 = arraycopy(array2, 0, array3, array3.length-1, array3.length);
+		System.out.println(array3);
+		System.out.println();
+		System.out.println("Exercise 5");
+		System.out.println();
+		System.out.println("Exercise 6");
+		System.out.println();
+		System.out.println("Exercise 7");
+		System.out.println();
+		System.out.println("Exercise 8");
+		System.out.println();
+		System.out.println("Exercise 9");
+		System.out.println();
+		System.out.println("Exercise 10");
+	}
+}
